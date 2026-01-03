@@ -26,28 +26,48 @@ img{
 
 
 .counter    {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-weight: bold;
+    border: 0.25rem solid grey;
+    border-radius: 50px;
+    padding: 1rem;
+    background-color: rgb(182, 180, 180);
 }
 
 #coins-counter  {
     margin: 0;
     padding: 0;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    padding: 0 2rem;
 }
 
+
 #cps    {
-    text-align: end;
+    text-align: center;
     margin: 0;
     padding: 0;
     font-size: 1rem;
 }
 
+.shop   {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: 0.25rem solid grey;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 2rem 0;
+    background-color: rgb(182, 180, 180);
+}
 
 h2  {
     margin-bottom: 0;
     padding-bottom: 0.2rem;
     font-size: 2rem;
+    color: rgb(88, 87, 87)
 }
 
 #wall-street    {
@@ -59,6 +79,7 @@ h2  {
     border: 0.2rem solid brown;
     border-radius: 50%;
     cursor: pointer;
+    
 }
 
 button:hover{
@@ -72,6 +93,12 @@ button:hover{
     padding-top: 0.5rem;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+#invest-name    {
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 #incr-cps   {
